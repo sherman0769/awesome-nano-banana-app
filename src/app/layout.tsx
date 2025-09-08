@@ -3,6 +3,7 @@ import "./globals.css";
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import PwaRegister from "@/components/PwaRegister";
+import InstallPWA from "@/components/InstallPWA";
 
 export const viewport: Viewport = {
   themeColor: "#111827",
@@ -33,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         >
           <b>Nano Banana Prompts</b>
-          <nav>
+          <nav style={{ display: "flex", gap: 8 }}>
             <Link
               href="/cases"
               style={{
@@ -46,6 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             >
               所有案例
             </Link>
+            <InstallPWA />
           </nav>
         </header>
 
