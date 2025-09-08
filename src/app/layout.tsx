@@ -47,6 +47,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             >
               所有案例
             </Link>
+            <Link
+              href="/favorites"
+              style={{
+                padding: "8px 12px",
+                background: "#eee",
+                borderRadius: 8,
+                textDecoration: "none",
+                color: "inherit",
+              }}
+            >
+              我的收藏
+            </Link>
             <InstallPWA />
           </nav>
         </header>
