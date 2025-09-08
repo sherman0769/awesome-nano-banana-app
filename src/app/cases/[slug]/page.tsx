@@ -3,6 +3,7 @@ import { getCaseBySlug } from "@/lib/data";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import CopyButton from "@/components/CopyButton";
+import FavoriteButton from "@/components/FavoriteButton";
 
 export default async function CaseDetailPage({
   params,
@@ -31,6 +32,9 @@ export default async function CaseDetailPage({
     <article style={{ padding: 16 }}>
       <p><Link href="/cases">← 返回列表</Link></p>
       <h1>{item.title.zh}</h1>
+      <div style={{ margin: "8px 0 12px" }}>
+        <FavoriteButton slug={item.slug} />
+      </div>
       <p style={{ color: "#666" }}>{item.title.en}</p>
 
       <div style={{ display: "flex", flexWrap: "wrap", gap: 8, margin: "8px 0 16px" }}>
