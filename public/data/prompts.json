@@ -1,0 +1,1338 @@
+{
+  "locale": "zh-TW",
+  "cases": [
+    {
+      "id": 1,
+      "slug": "case1-illustration-to-figure",
+      "title": {
+        "zh": "插畫變手辦",
+        "en": "Illustration to Figure"
+      },
+      "tags": [
+        "插畫變手辦",
+        "Illustration",
+        "to",
+        "Figure"
+      ],
+      "prompts": {
+        "zh": "將這張照片變成角色手辦。在它後面放置一個印有角色影象的盒子，盒子上有一臺電腦顯示Blender建模過程。在盒子前面新增一個圓形塑膠底座，角色手辦站在上面。如果可能的話，將場景設定在室內",
+        "en": "turn this photo into a character figure. Behind it, place a box with the character's image printed on it, and a computer showing the Blender modeling process on its screen. In front of the box, add a round plastic base with the character figure standing on it. set the scene indoors if possible"
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case1/input.jpg"
+        },
+        {
+          "role": "input",
+          "src": "images/case1/input0.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case1/output.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case1/output0.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "case2-generate-ground-view-from-map-arrow",
+      "title": {
+        "zh": "根據地圖箭頭生成地面視角圖片",
+        "en": "Generate Ground View from Map Arrow"
+      },
+      "tags": [
+        "根據地圖箭頭生成地面視角圖片",
+        "Generate",
+        "Ground",
+        "View",
+        "from",
+        "Map",
+        "Arrow"
+      ],
+      "prompts": {
+        "zh": "畫出紅色箭頭看到的內容\n/\n從紅色圓圈沿箭頭方向畫出真實世界的視角",
+        "en": "draw what the red arrow sees \n/ \ndraw the real world view from the red circle in the direction of the arrow."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case2/input.jpg"
+        },
+        {
+          "role": "input",
+          "src": "images/case2/input2.jpg"
+        },
+        {
+          "role": "input",
+          "src": "images/case2/input3.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case2/output.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case2/output2.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case2/output3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "case3-real-world-ar-information",
+      "title": {
+        "zh": "真實世界的AR資訊化",
+        "en": "Real World AR Information"
+      },
+      "tags": [
+        "真實世界的AR資訊化",
+        "Real",
+        "World",
+        "AR",
+        "Information"
+      ],
+      "prompts": {
+        "zh": "你是一個基於位置的AR體驗生成器。在這張影象中突出顯示[興趣點]並標註相關資訊",
+        "en": "you are a location-based AR experience generator. highlight [point of interest] in this image and annotate relevant information about it."
+      },
+      "images": [
+        {
+          "role": "output",
+          "src": "images/case3/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "case4-extract-3d-buildings-make-isometric-models",
+      "title": {
+        "zh": "分離出3D建築/製作等距模型",
+        "en": "Extract 3D Buildings/Make Isometric Models"
+      },
+      "tags": [
+        "分離出3D建築",
+        "製作等距模型",
+        "Extract",
+        "3D",
+        "Buildings",
+        "Make",
+        "Isometric",
+        "Models"
+      ],
+      "prompts": {
+        "zh": "將影象製作成白天和等距檢視[僅限建築]",
+        "en": "Make Image Daytime and Isometric [Building Only]"
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case4/input.jpg"
+        },
+        {
+          "role": "input",
+          "src": "images/case4/input2.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case4/output.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case4/output2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "case5-photos-of-yourself-in-different-eras",
+      "title": {
+        "zh": "不同時代自己的照片",
+        "en": "Photos of Yourself in Different Eras"
+      },
+      "tags": [
+        "不同時代自己的照片",
+        "Photos",
+        "of",
+        "Yourself",
+        "in",
+        "Different",
+        "Eras"
+      ],
+      "prompts": {
+        "zh": "將角色的風格改為[1970]年代的經典[男性]風格\n\n新增[長卷發]，\n[長鬍子]，\n將背景改為標誌性的[加州夏季風景]\n\n不要改變角色的面部",
+        "en": "Change the characer's style to [1970]'s classical [male] style\n\nAdd [long curly] hair, \n[long mustache], \nchange the background to the iconic [californian summer landscape]\n\nDon't change the character's face"
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case5/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case5/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "case6-multi-reference-image-generation",
+      "title": {
+        "zh": "多參考影象生成",
+        "en": "Multi-Reference Image Generation"
+      },
+      "tags": [
+        "多參考影象生成",
+        "Multi",
+        "Reference",
+        "Image",
+        "Generation"
+      ],
+      "prompts": {
+        "zh": "一個模特擺姿勢靠在粉色寶馬車上。她穿著以下物品，場景背景是淺灰色。綠色外星人是一個鑰匙扣，掛在粉色手提包上。模特肩上還有一隻粉色鸚鵡。旁邊坐著一隻戴著粉色項圈和金色耳機的哈巴狗",
+        "en": "A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case6/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case6/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "case7-automatic-photo-editing",
+      "title": {
+        "zh": "自動修圖",
+        "en": "Automatic Photo Editing"
+      },
+      "tags": [
+        "自動修圖",
+        "Automatic",
+        "Photo",
+        "Editing"
+      ],
+      "prompts": {
+        "zh": "這張照片很無聊很平淡。增強它！增加對比度，提升色彩，改善光線使其更豐富，你可以裁剪和刪除影響構圖的細節",
+        "en": "This photo is very boring and plain. Enhance it! Increase the contrast, boost the colors, and improve the lighting to make it richer,You can crop and delete details that affect the composition."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case7/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case7/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "case8-hand-drawing-controls-multi-character-poses",
+      "title": {
+        "zh": "手繪圖控制多角色姿態",
+        "en": "Hand Drawing Controls Multi-Character Poses"
+      },
+      "tags": [
+        "手繪圖控制多角色姿態",
+        "Hand",
+        "Drawing",
+        "Controls",
+        "Multi",
+        "Character",
+        "Poses"
+      ],
+      "prompts": {
+        "zh": "讓這兩個角色使用圖3的姿勢進行戰鬥。新增適當的視覺背景和場景互動，生成影象比例為16:9",
+        "en": "Have these two characters fight using the pose from Figure 3. Add appropriate visual backgrounds and scene interactions,Generated image ratio is 16:9"
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case8/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case8/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "case9-cross-view-image-generation",
+      "title": {
+        "zh": "跨視角影象生成",
+        "en": "Cross-View Image Generation"
+      },
+      "tags": [
+        "跨視角影象生成",
+        "Cross",
+        "View",
+        "Image",
+        "Generation"
+      ],
+      "prompts": {
+        "zh": "將照片轉換為俯視角度並標記攝影師的位置",
+        "en": "Convert the photo to a top-down view and mark the location of the photographer."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case9/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case9/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "case10-custom-character-stickers",
+      "title": {
+        "zh": "定製人物貼紙",
+        "en": "Custom Character Stickers"
+      },
+      "tags": [
+        "定製人物貼紙",
+        "Custom",
+        "Character",
+        "Stickers"
+      ],
+      "prompts": {
+        "zh": "幫我將角色變成類似圖2的白色輪廓貼紙。角色需要轉換成網頁插畫風格，並新增一個描述圖1的俏皮白色輪廓短語",
+        "en": "Help me turn the character into a white outline sticker similar to Figure 2. The character needs to be transformed into a web illustration style, and add a playful white outline short phrase describing Figure 1."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case10/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case10/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "case11-anime-to-real-coser",
+      "title": {
+        "zh": "動漫轉真人Coser",
+        "en": "Anime to Real Coser"
+      },
+      "tags": [
+        "動漫轉真人Coser",
+        "Anime",
+        "to",
+        "Real",
+        "Coser"
+      ],
+      "prompts": {
+        "zh": "生成一個女孩cosplay這張插畫的照片，背景設定在Comiket",
+        "en": "Generate a photo of a girl cosplaying this illustration, with the background set at Comiket"
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case11/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case11/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "slug": "case12-generate-character-design",
+      "title": {
+        "zh": "生成角色設定",
+        "en": "Generate Character Design"
+      },
+      "tags": [
+        "生成角色設定",
+        "Generate",
+        "Character",
+        "Design"
+      ],
+      "prompts": {
+        "zh": "為我生成人物的角色設定（Character Design）\n\n比例設定（不同身高對比、頭身比等）\n\n三檢視（正面、側面、背面）\n\n表情設定（Expression Sheet） → 就是你發的那種圖\n\n動作設定（Pose Sheet） → 各種常見姿勢\n\n服裝設定（Costume Design）",
+        "en": "Generate character design for me (Character Design)\n\nProportion design (different height comparisons, head-to-body ratio, etc.)\n\nThree views (front, side, back)\n\nExpression design (Expression Sheet) → like the image you sent\n\nPose design (Pose Sheet) → various common poses\n\nCostume design (Costume Design)"
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case12/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case12/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "slug": "case13-color-line-art-with-color-palette",
+      "title": {
+        "zh": "色卡線稿上色",
+        "en": "Color Line Art with Color Palette"
+      },
+      "tags": [
+        "色卡線稿上色",
+        "Color",
+        "Line",
+        "Art",
+        "with",
+        "Palette"
+      ],
+      "prompts": {
+        "zh": "準確使用圖2色卡為圖1人物上色",
+        "en": "Accurately use the color palette from Figure 2 to color the character in Figure 1"
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case13/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case13/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "slug": "case14-article-infographic",
+      "title": {
+        "zh": "文章資訊圖",
+        "en": "Article Infographic"
+      },
+      "tags": [
+        "文章資訊圖",
+        "Article",
+        "Infographic"
+      ],
+      "prompts": {
+        "zh": "為文章內容生成資訊圖\n要求：\n1. 將內容翻譯成英文，並提煉文章的關鍵資訊\n2. 圖中內容保持精簡，只保留大標題\n3. 圖中文字採用英文\n4. 加上豐富可愛的卡通人物和元素",
+        "en": "Generate an infographic for the article content\nRequirements:\n1. Translate the content into English and extract key information from the article\n2. Keep the content in the image concise, only retaining the main title\n3. Use English text in the image\n4. Add rich and cute cartoon characters and elements"
+      },
+      "images": [
+        {
+          "role": "output",
+          "src": "images/case14/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "slug": "case15-change-multiple-hairstyles",
+      "title": {
+        "zh": "更換多種髮型",
+        "en": "Change Multiple Hairstyles"
+      },
+      "tags": [
+        "更換多種髮型",
+        "Change",
+        "Multiple",
+        "Hairstyles"
+      ],
+      "prompts": {
+        "zh": "以九宮格的方式生成這個人不同髮型的頭像",
+        "en": "Generate avatars of this person with different hairstyles in a 3x3 grid format"
+      },
+      "images": [
+        {
+          "role": "output",
+          "src": "images/case15/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "slug": "case16-model-annotation-explanation-diagram",
+      "title": {
+        "zh": "模型標註講解圖",
+        "en": "Model Annotation Explanation Diagram"
+      },
+      "tags": [
+        "模型標註講解圖",
+        "Model",
+        "Annotation",
+        "Explanation",
+        "Diagram"
+      ],
+      "prompts": {
+        "zh": "繪製[3D人體器官模型展示示例心臟]用於學術展示，進行標註講解，適用於展示其原理和[每個器官]的功能，非常逼真，高度還原，精細度非常細緻的設計",
+        "en": "Draw [3D human organ model display example heart] for academic presentation, with annotations and explanations, suitable for showcasing its principles and [each organ's] functions, very realistic, highly detailed, with extremely fine design."
+      },
+      "images": [
+        {
+          "role": "output",
+          "src": "images/case16/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "slug": "case17-custom-marble-sculpture",
+      "title": {
+        "zh": "定製大理石雕塑",
+        "en": "Custom Marble Sculpture"
+      },
+      "tags": [
+        "定製大理石雕塑",
+        "Custom",
+        "Marble",
+        "Sculpture"
+      ],
+      "prompts": {
+        "zh": "一張超詳細的影象中主體雕塑的寫實影象，由閃亮的大理石製成。雕塑應展示光滑反光的大理石表面，強調其光澤和藝術工藝。設計優雅，突出大理石的美麗和深度。影象中的光線應增強雕塑的輪廓和紋理，創造出視覺上令人驚歎和迷人的效果",
+        "en": "A photorealistic image of an ultra-detailed sculpture of the subject in image made of shining marble. The sculpture should display smooth and reflective marble surface, emphasizing its luster and artistic craftsmanship. The design is elegant, highlighting the beauty and depth of marble. The lighting in the image should enhance the sculpture's contours and textures, creating a visually stunning and mesmerizing effect"
+      },
+      "images": [
+        {
+          "role": "output",
+          "src": "images/case17/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "slug": "case18-cook-based-on-ingredients",
+      "title": {
+        "zh": "根據食材做菜",
+        "en": "Cook Based on Ingredients"
+      },
+      "tags": [
+        "根據食材做菜",
+        "Cook",
+        "Based",
+        "on",
+        "Ingredients"
+      ],
+      "prompts": {
+        "zh": "用這些食材為我做一頓美味的午餐，放在盤子裡，盤子的特寫檢視，移除其他盤子和食材",
+        "en": "make me a delicious lunch with these ingredients, and put it on a plate , zoomed in view of the plate, remove the other plates and ingredients."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case18/input1.jpg"
+        },
+        {
+          "role": "input",
+          "src": "images/case18/input2.jpg"
+        },
+        {
+          "role": "input",
+          "src": "images/case18/input3.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case18/output1.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case18/output2.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case18/output3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "slug": "case19-math-problem-reasoning",
+      "title": {
+        "zh": "數學題推理",
+        "en": "Math Problem Reasoning"
+      },
+      "tags": [
+        "數學題推理",
+        "Math",
+        "Problem",
+        "Reasoning"
+      ],
+      "prompts": {
+        "zh": "根據問題將問題的答案寫在對應的位置上",
+        "en": "Write the answer to the problem in the corresponding position based on the question"
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case19/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case19/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "slug": "case20-old-photo-colorization",
+      "title": {
+        "zh": "舊照片上色",
+        "en": "Old Photo Colorization"
+      },
+      "tags": [
+        "舊照片上色",
+        "Old",
+        "Photo",
+        "Colorization"
+      ],
+      "prompts": {
+        "zh": "修復併為這張照片上色",
+        "en": "restore and colorize this photo."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case20/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case20/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "slug": "case21-ootd-outfit",
+      "title": {
+        "zh": "OOTD穿搭",
+        "en": "OOTD Outfit"
+      },
+      "tags": [
+        "OOTD穿搭",
+        "OOTD",
+        "Outfit"
+      ],
+      "prompts": {
+        "zh": "選擇圖1中的人，讓他們穿上圖2中的所有服裝和配飾。在戶外拍攝一系列寫實的OOTD風格照片，使用自然光線，時尚的街頭風格，清晰的全身鏡頭。保持圖1中人物的身份和姿勢，但以連貫時尚的方式展示圖2中的完整服裝和配飾",
+        "en": "Choose the person in Image 1 and dress them in all the clothing and accessories from Image 2. Shoot a series of realistic OOTD-style photos outdoors, using natural lighting, a stylish street style, and clear full-body shots. Keep the person's identity and pose from Image 1, but show the complete outfit and accessories from Image 2 in a cohesive, stylish way."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case21/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case21/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "slug": "case22-character-clothing-change",
+      "title": {
+        "zh": "人物換衣",
+        "en": "Character Clothing Change"
+      },
+      "tags": [
+        "人物換衣",
+        "Character",
+        "Clothing",
+        "Change"
+      ],
+      "prompts": {
+        "zh": "將輸入影象中人物的服裝替換為參考影象中顯示的目標服裝。保持人物的姿勢、面部表情、背景和整體真實感不變。讓新服裝看起來自然、合身，並與光線和陰影保持一致。不要改變人物的身份或環境——只改變衣服",
+        "en": "Replace the person's clothing in the input image with the target clothing shown in the reference image. Keep the person's pose, facial expression, background, and overall realism unchanged. Make the new outfit look natural, well-fitted, and consistent with lighting and shadows. Do not alter the person's identity or the environment — only change the clothes."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case22/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case22/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "slug": "case23-multi-view-result-generation",
+      "title": {
+        "zh": "多檢視結果生成",
+        "en": "Multi-View Result Generation"
+      },
+      "tags": [
+        "多檢視結果生成",
+        "Multi",
+        "View",
+        "Result",
+        "Generation"
+      ],
+      "prompts": {
+        "zh": "在白色背景上生成前、後、左、右、上、下檢視。均勻分佈。一致的主體。等距透視等效",
+        "en": "Generate the Front, Rear, Left, Right, Top, Bottom views on white. Evenly spaced. Consistent subject. Isometric Perspective Equivalence."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case23/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case23/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "slug": "case24-case-24",
+      "title": {
+        "zh": "例 24",
+        "en": "Case 24"
+      },
+      "tags": [
+        "例",
+        "Case"
+      ],
+      "prompts": {
+        "zh": "用這兩個角色創作一個令人上癮的12部分故事，包含12張影象，講述經典的黑色電影偵探故事。故事關於他們尋找線索並最終發現的失落的寶藏。整個故事充滿刺激，有情感的高潮和低谷，以精彩的轉折和高潮結尾。不要在影象中包含任何文字或文字，純粹透過影象本身講述故事",
+        "en": "Create an addictively intriguing 12 part story with 12 images with these two characters in a classic black and white film noir detective story. Make it about missing treasure that they get clues for throughout and then finally discover. The story is thrilling throughout with emotional highs and lows and ending on a great twist and high note. Do not include any words or text on the images but tell the story purely through the imagery itself."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case24/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case24/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "slug": "case25-character-pose-modification",
+      "title": {
+        "zh": "人物姿勢修改",
+        "en": "Character Pose Modification"
+      },
+      "tags": [
+        "人物姿勢修改",
+        "Character",
+        "Pose",
+        "Modification"
+      ],
+      "prompts": {
+        "zh": "讓圖片中的人直視前方",
+        "en": "Have the person in the picture look straight ahead"
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case25/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case25/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "slug": "case26-generate-image-from-line-drawing",
+      "title": {
+        "zh": "線稿圖生成影象",
+        "en": "Generate image from line drawing"
+      },
+      "tags": [
+        "線稿圖生成影象",
+        "Generate",
+        "image",
+        "from",
+        "line",
+        "drawing"
+      ],
+      "prompts": {
+        "zh": "將圖一人物換成圖二姿勢，專業攝影棚拍攝",
+        "en": "Change the pose of the person in Figure 1 to that of Figure 2, and shoot in a professional studio"
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case26/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case26/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "slug": "case27-add-watermark-to-image",
+      "title": {
+        "zh": "為影象新增水印",
+        "en": "Add Watermark to Image"
+      },
+      "tags": [
+        "為影象新增水印",
+        "Add",
+        "Watermark",
+        "to",
+        "Image"
+      ],
+      "prompts": {
+        "zh": "在整個圖片上反覆覆蓋“TRUMP”這個詞。",
+        "en": "Watermark the word ‘TRUMP’ over and over again across the whole image."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case27/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case27/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "slug": "case28-knowledge-reasoning-image-generation",
+      "title": {
+        "zh": "知識推理生成影象",
+        "en": "Knowledge Reasoning Image Generation"
+      },
+      "tags": [
+        "知識推理生成影象",
+        "Knowledge",
+        "Reasoning",
+        "Image",
+        "Generation"
+      ],
+      "prompts": {
+        "zh": "為我製作一張世界五座最高建築的資訊圖 / 製作一張關於地球上最甜蜜事物的彩色資訊圖",
+        "en": "Make me an infographic of 5 tallest buildings in the world / Make a colorful infographic of the sweetest things on Earth"
+      },
+      "images": [
+        {
+          "role": "output",
+          "src": "images/case28/output.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case28/output1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "slug": "case29-red-pen-annotations",
+      "title": {
+        "zh": "紅筆批註",
+        "en": "Red Pen Annotations"
+      },
+      "tags": [
+        "紅筆批註",
+        "Red",
+        "Pen",
+        "Annotations"
+      ],
+      "prompts": {
+        "zh": "分析這張圖片。用紅筆標出你可以改進的地方。",
+        "en": "Analyze this image. Use red pen to denote where you can improve."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case29/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case29/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "slug": "case30-explosive-food",
+      "title": {
+        "zh": "爆炸的食物",
+        "en": "Explosive Food"
+      },
+      "tags": [
+        "爆炸的食物",
+        "Explosive",
+        "Food"
+      ],
+      "prompts": {
+        "zh": "在具有戲劇性的現代場景中拍攝該產品，並伴隨著爆炸性的向外動態排列，主要成分新鮮和原始在產品周圍飛舞，表明其新鮮度和營養價值。促銷廣告鏡頭，沒有文字，強調產品，以關鍵品牌顏色作為背景。",
+        "en": "Photograph this product in a dramatic modern scene accompanied by explosive outward dynamic arrangement of the key ingredients fresh and raw flying around the product signifying its freshness and nutritional value. promo ad shot, without text, product is emphasized, with the key brand colors as background."
+      },
+      "images": [
+        {
+          "role": "output",
+          "src": "images/case30/output.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case30/output1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "slug": "case31-create-comic-book",
+      "title": {
+        "zh": "製作漫畫書",
+        "en": "Create Comic Book"
+      },
+      "tags": [
+        "製作漫畫書",
+        "Create",
+        "Comic",
+        "Book"
+      ],
+      "prompts": {
+        "zh": "基於上傳的影象，製作漫畫書條幅，新增文字，寫一個引人入勝的故事。我想要一本奇幻漫畫書。",
+        "en": "Based on the uploaded image, make a comic book strip, add text, write a compelling story. I want a superhero comic book."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case31/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case31/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "slug": "case32-action-figure",
+      "title": {
+        "zh": "動作人偶",
+        "en": "Action Figure"
+      },
+      "tags": [
+        "動作人偶",
+        "Action",
+        "Figure"
+      ],
+      "prompts": {
+        "zh": "製作一個寫著 [“AI Evangelist - Kris”] 的動作人偶，幷包含 [咖啡、烏龜、膝上型電腦、手機和耳機] 。",
+        "en": "make an action figure of me that says [“AI Evangelist - Kris”] and features [coffee, turtle, laptop, phone and headphones]"
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case32/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case32/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "slug": "case33-map-to-isometric-buildings",
+      "title": {
+        "zh": "地圖生成等距建築",
+        "en": "Map to Isometric Buildings"
+      },
+      "tags": [
+        "地圖生成等距建築",
+        "Map",
+        "to",
+        "Isometric",
+        "Buildings"
+      ],
+      "prompts": {
+        "zh": "以這個位置為地標，將其設為等距影象（僅建築物），採用遊戲主題公園的風格",
+        "en": "Take this location and make the landmark an isometric image (building only), in the stvle of the game Theme Park"
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case33/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case33/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "slug": "case34-reference-image-controls-character-expression",
+      "title": {
+        "zh": "參考圖控制人物表情",
+        "en": "Reference Image Controls Character Expression"
+      },
+      "tags": [
+        "參考圖控制人物表情",
+        "Reference",
+        "Image",
+        "Controls",
+        "Character",
+        "Expression"
+      ],
+      "prompts": {
+        "zh": "圖一人物參考/換成圖二人物的表情",
+        "en": "Character reference from Image 1 / Change to the expression from Image 2"
+      },
+      "images": [
+        {
+          "role": "other",
+          "src": "images/case34/case.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "slug": "case35-illustration-drawing-process-four-panel",
+      "title": {
+        "zh": "插畫繪畫過程四格",
+        "en": "Illustration Drawing Process Four-Panel"
+      },
+      "tags": [
+        "插畫繪畫過程四格",
+        "Illustration",
+        "Drawing",
+        "Process",
+        "Four",
+        "Panel"
+      ],
+      "prompts": {
+        "zh": "為人物生成繪畫過程四宮格，第一步：線稿，第二步平鋪顏色，第三步：增加陰影，第四步：細化成型。不要文字",
+        "en": "Generate a four-panel drawing process for the character: Step 1: Line art, Step 2: Flat colors, Step 3: Add shadows, Step 4: Refine and complete. No text."
+      },
+      "images": [
+        {
+          "role": "other",
+          "src": "images/case35/case.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "slug": "case36-virtual-makeup-try-on",
+      "title": {
+        "zh": "虛擬試妝",
+        "en": "Virtual Makeup Try-On"
+      },
+      "tags": [
+        "虛擬試妝",
+        "Virtual",
+        "Makeup",
+        "Try",
+        "On"
+      ],
+      "prompts": {
+        "zh": "為圖一人物化上圖二的妝，還保持圖一的姿勢",
+        "en": "Apply the makeup from Image 2 to the character in Image 1, while maintaining the pose from Image 1."
+      },
+      "images": [
+        {
+          "role": "other",
+          "src": "images/case36/case.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "slug": "case37-makeup-analysis",
+      "title": {
+        "zh": "妝面分析",
+        "en": "Makeup Analysis"
+      },
+      "tags": [
+        "妝面分析",
+        "Makeup",
+        "Analysis"
+      ],
+      "prompts": {
+        "zh": "分析這張圖片。用紅筆標出可以改進的地方\nAnalyze this image. Use red pen to denote where you can improve",
+        "en": "Analyze this image. Use a red pen to mark areas that can be improved\nAnalyze this image. Use a red pen to denote where you can improve"
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case37/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case37/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "slug": "case38-google-maps-view-of-middle-earth",
+      "title": {
+        "zh": "Google地圖視角下的中土世界",
+        "en": "Google Maps View of Middle-earth"
+      },
+      "tags": [
+        "Google地圖視角下的中土世界",
+        "Google",
+        "Maps",
+        "View",
+        "of",
+        "Middle",
+        "earth"
+      ],
+      "prompts": {
+        "zh": "行車記錄儀谷歌街景拍攝 | [霍比屯街道] | [霍位元人進行園藝和抽菸鬥等日常活動] | [晴天]",
+        "en": "Dashcam Google Street View shot | [Hobbiton Street] | [hobbits carrying out daily tasks like gardening and smoking pipes] | [Sunny weather]"
+      },
+      "images": [
+        {
+          "role": "output",
+          "src": "images/case38/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "slug": "case39-typographic-illustration-generation",
+      "title": {
+        "zh": "印刷插畫生成",
+        "en": "Typographic Illustration Generation"
+      },
+      "tags": [
+        "印刷插畫生成",
+        "Typographic",
+        "Illustration",
+        "Generation"
+      ],
+      "prompts": {
+        "zh": "僅使用短語 [“riding a bike”] 中的字母，創作一幅極簡主義的黑白印刷插圖，描繪騎腳踏車的場景。每個字母的形狀和位置都應富有創意，以構成騎車人、腳踏車和動感。設計應簡潔、極簡，完全由修改後的 [“riding a bike”] 字母組成，不新增任何額外的形狀或線條。字母應流暢或彎曲，以模仿場景的自然形態，同時保持清晰易讀。",
+        "en": "Create a minimalist black-and-white typographic illustration of the scene riding a bicycle using only the letters in the phrase ['riding a bicycle'] . Each letter should be creatively shaped or positioned to form the rider, the bicycle, and a sense of motion. The design should be clean, ultra-minimalist, and entirely composed of the modified ['riding a bicycle'] letters without adding any extra shapes or lines. The letters should flow or curve to mimic the natural form of the scene, while still remaining legible."
+      },
+      "images": [
+        {
+          "role": "output",
+          "src": "images/case39/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "slug": "case40-multiple-character-poses-generation",
+      "title": {
+        "zh": "超多人物姿勢生成",
+        "en": "Multiple Character Poses Generation"
+      },
+      "tags": [
+        "超多人物姿勢生成",
+        "Multiple",
+        "Character",
+        "Poses",
+        "Generation"
+      ],
+      "prompts": {
+        "zh": "請為這幅插圖建立一個姿勢表，擺出各種姿勢",
+        "en": "Please create a pose sheet for this illustration, making various poses!"
+      },
+      "images": [
+        {
+          "role": "other",
+          "src": "images/case40/case.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "slug": "case41-product-packaging-generation",
+      "title": {
+        "zh": "物品包裝生成",
+        "en": "Product Packaging Generation"
+      },
+      "tags": [
+        "物品包裝生成",
+        "Product",
+        "Packaging",
+        "Generation"
+      ],
+      "prompts": {
+        "zh": "把圖一貼在圖二易拉罐上，並放在極簡設計的佈景中，專業攝影",
+        "en": "Apply the design from Image 1 to the can in Image 2, and place it in a minimalist design setting, professional photography"
+      },
+      "images": [
+        {
+          "role": "other",
+          "src": "images/case41/case.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "slug": "case42-overlay-filter-material",
+      "title": {
+        "zh": "疊加濾鏡/材質",
+        "en": "Overlay Filter/Material"
+      },
+      "tags": [
+        "疊加濾鏡",
+        "材質",
+        "Overlay",
+        "Filter",
+        "Material"
+      ],
+      "prompts": {
+        "zh": "為圖一照片疊加上圖二 [玻璃] 的效果",
+        "en": "Overlay the [glass] effect from Image 2 onto the photo in Image 1"
+      },
+      "images": [
+        {
+          "role": "other",
+          "src": "images/case42/case.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "slug": "case43-control-character-face-shape",
+      "title": {
+        "zh": "控制人物臉型",
+        "en": "Control Character Face Shape"
+      },
+      "tags": [
+        "控制人物臉型",
+        "Control",
+        "Character",
+        "Face",
+        "Shape"
+      ],
+      "prompts": {
+        "zh": "圖一人物按照圖二的臉型設計為q版形象",
+        "en": "Design the character from Image 1 as a chibi version according to the face shape from Image 2"
+      },
+      "images": [
+        {
+          "role": "other",
+          "src": "images/case43/case.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "slug": "case44-lighting-control",
+      "title": {
+        "zh": "光影控制",
+        "en": "Lighting Control"
+      },
+      "tags": [
+        "光影控制",
+        "Lighting",
+        "Control"
+      ],
+      "prompts": {
+        "zh": "圖一人物變成圖二光影，深色為暗",
+        "en": "Change the character from Image 1 to the lighting from Image 2, with dark areas as shadows"
+      },
+      "images": [
+        {
+          "role": "other",
+          "src": "images/case44/case.jpg"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "slug": "case45-lego-minifigure",
+      "title": {
+        "zh": "樂高玩具小人",
+        "en": "LEGO Minifigure"
+      },
+      "tags": [
+        "樂高玩具小人",
+        "LEGO",
+        "Minifigure"
+      ],
+      "prompts": {
+        "zh": "將照片中的人物轉化為樂高小人包裝盒的風格，以等距透視呈現。在包裝盒上標註標題“ZHOGUE”。在盒內展示基於照片中人物的樂高小人，並配有他們必需的物品（如化妝品、包或其他物品）作為樂高配件。在盒子旁邊，也展示實際樂高小人本身，未包裝，以逼真且生動的方式渲染。",
+        "en": "Transform the person in the photo into a LEGO minifigure packaging box style, presented in isometric perspective. Label the box with the title \"ZHOGUE\". Inside the box, display the LEGO minifigure based on the person in the photo, along with their essential items (such as makeup, bags, or other items) as LEGO accessories. Beside the box, also display the actual LEGO minifigure itself, unpackaged, rendered in a realistic and vivid style."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case45/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case45/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "slug": "case46-gundam-model-figure",
+      "title": {
+        "zh": "高達模型小人",
+        "en": "Gundam Model Figure"
+      },
+      "tags": [
+        "高達模型小人",
+        "Gundam",
+        "Model",
+        "Figure"
+      ],
+      "prompts": {
+        "zh": "將照片中的人物轉化為高達模型套件包裝盒的風格，以等距透視呈現。在包裝盒上標註標題“ZHOGUE”。在盒內展示照片中人物的高達風格機械人版本，並伴隨其必需品（如化妝品、包袋或其他物品）重新設計為未來派機械配件。包裝盒應類似真實的 Gunpla 盒子，包含技術插圖、說明書風格細節和科幻字型。在盒子旁邊，也展示實際的高達風格機械人本身，在包裝外以逼真且栩栩如生的風格渲染，類似於官方 Bandai 宣傳渲染圖。",
+        "en": "Transform the person in the photo into a Gundam model kit packaging box style, presented in isometric perspective. Label the box with the title \"ZHOGUE\". Inside the box, display a Gundam-style mechanical version of the person from the photo, along with their essentials (such as makeup, bags, or other items) redesigned as futuristic mechanical accessories. The packaging should resemble real Gunpla boxes, including technical illustrations, instruction manual-style details, and sci-fi fonts. Beside the box, also display the actual Gundam-style mechanical figure itself, outside the packaging, rendered in a realistic and lifelike style, similar to official Bandai promotional renders."
+      },
+      "images": [
+        {
+          "role": "input",
+          "src": "images/case46/input.jpg"
+        },
+        {
+          "role": "output",
+          "src": "images/case46/output.jpg"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "slug": "case47-hardware-exploded-view",
+      "title": {
+        "zh": "硬體拆解圖",
+        "en": "Hardware Exploded View"
+      },
+      "tags": [
+        "硬體拆解圖",
+        "Hardware",
+        "Exploded",
+        "View"
+      ],
+      "prompts": {
+        "zh": "數碼單反相機的分解圖，展示了其所有配件和內部元件，例如鏡頭、濾鏡、內部元件、鏡頭、感測器、螺絲、按鈕、取景器、外殼和電路板。保留了數碼單反相機的紅色裝飾。",
+        "en": "Exploded view of a DSLR showing all its accessories and internal components such as lens, filter,  internal components, lens, sensor, screws, buttons, viewfinder, housing, and circuit board. Maintain red accents of the DSLR"
+      },
+      "images": [
+        {
+          "role": "output",
+          "src": "images/case47/output.jpg"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "source_attribution": "See README files",
+    "license": "See LICENSE"
+  }
+}
