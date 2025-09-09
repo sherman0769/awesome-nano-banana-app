@@ -14,10 +14,9 @@ export const metadata: Metadata = {
   description: "離線可用的 Banana 提示詞與參考圖像索引",
   manifest: "/manifest.webmanifest",
   icons: {
-    icon: [
-      { url: "/favicon.ico?v=8", sizes: "any", type: "image/x-icon" }, // ← 加版本參數
-      { url: "/icon.png?v=8", type: "image/png" }                      // ← 一併加版本參數
-    ],
+    icon:      [{ url: "/icon.png?v=9", sizes: "512x512", type: "image/png" }],
+    shortcut:  ["/icon.png?v=9"],
+    apple:     ["/icon.png?v=9"],
   },
 };
 
