@@ -68,6 +68,12 @@ input[type="search"]:focus{
 .badge:hover{background:#e5e7eb}
 .badge[data-active="true"]{background:var(--chip-active);color:var(--chip-active-text)}
 
+/* 首頁浮水印 */
+.watermark{
+  position:fixed;bottom:12px;right:16px;
+  font-size:12px;color:var(--muted);opacity:.8;
+}
+
 /* 卡片與圖片 */
 .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
 .card{
