@@ -13,6 +13,12 @@ export const metadata: Metadata = {
   title: "Nano Banana Prompts",
   description: "離線可用的 Banana 提示詞與參考圖像索引",
   manifest: "/manifest.webmanifest",
+  icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png" },
+      { url: "/icon.png", rel: "shortcut icon" }
+    ],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
