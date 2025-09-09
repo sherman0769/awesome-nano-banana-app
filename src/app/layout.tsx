@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
   icons: {
     icon: [
-      { url: "/icon.png", type: "image/png" },
-      { url: "/icon.png", rel: "shortcut icon" }
+      { url: "/favicon.ico?v=8", sizes: "any", type: "image/x-icon" }, // ← 加版本參數
+      { url: "/icon.png?v=8", type: "image/png" }                      // ← 一併加版本參數
     ],
   },
 };
